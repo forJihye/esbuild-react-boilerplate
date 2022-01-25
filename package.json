@@ -18,7 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "esbuild src/index.tsx --inject:src/helper/react-shim.js --watch --bundle --outfile=dist/index.js",
-    "buile": "esbuild src/index.tsx --inject:src/helper/react-shim.js --minify --pure:console.log --bundle --outfile=build/dist/index.js && cp index.html build/"
+    "build": "esbuild src/index.tsx --inject:src/helper/react-shim.js --minify --pure:console.log --bundle --outfile=build/dist/index.js && cp index.html build/"
   },
   "keywords": [],
   "author": "forJihye <qkrwlgp76@gmail.com> (https://github.com/forJihye)",
